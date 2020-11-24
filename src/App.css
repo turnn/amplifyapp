@@ -1,3 +1,41 @@
+.portfolio-photo-container{
+  height:50px;
+  width:50px;
+  border-radius:10px;
+  background-color: rgb(74, 64, 64);
+  padding:5px;
+  margin:5px;
+}
+
+.portfolio-photo-container:hover{
+  
+  background-color: rgb(125, 108, 108);
+}
+
+.portfolio-nav-small {
+  left:0;
+  height:50px;
+  width:50px;
+  border-radius:10px;
+}
+
+.presentation-nav {
+  bottom:0;
+  width:100%;
+  height:20%;
+  display:flex;
+  flex-wrap:wrap;
+  justify-content:center;
+  align-items:stretch;
+
+}
+
+.presentation-main {
+  top:0;
+  width:100%;
+  height:80%;
+}
+
 .App {
   text-align: center;
 }
