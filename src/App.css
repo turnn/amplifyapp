@@ -1,39 +1,80 @@
-.portfolio-photo-container{
-  height:50px;
-  width:50px;
-  border-radius:10px;
-  background-color: rgb(74, 64, 64);
-  padding:5px;
-  margin:5px;
-}
+.gi-2x{font-size: 2em;}
+.gi-3x{font-size: 3em;}
+.gi-4x{font-size: 4em;}
+.gi-5x{font-size: 5em;}
 
-.portfolio-photo-container:hover{
-  
-  background-color: rgb(125, 108, 108);
-}
-
-.portfolio-nav-small {
-  left:0;
-  height:50px;
-  width:50px;
-  border-radius:10px;
-}
-
-.presentation-nav {
-  bottom:0;
+.main-row {
+  top:0;
   width:100%;
-  height:20%;
+  height:80%;
+}
+
+.focus-photo {
+  width:100px;
+  height:100px;
+  margin:20px;
+}
+
+.flexbox-lhs{
+  display:flex;
+  flex-direction:column;
+
+}
+
+.focus {
+  width:80%;
+  margin:auto;
+
+}
+
+.vertical-flexbox{
+  display:flex;
+  flex-direction:column;
+
+}
+
+.left {
+  text-align:left;
+  font-size:70%;
+}
+
+.nav-col{
+  height:50px;
+  width:50px;
+  border-radius:10px;
+  border-style:solid;
+  border-color: rgb(112, 150, 157);
+  padding:3px;
+  margin:5px;
+  transition: background-color 0.4s;
+}
+
+.nav-col:hover{
+  background-color: rgb(123, 163, 182) !important;
+}
+
+.nav-col.selected{
+  background-color: rgba(100, 127, 140, 0.361);
+
+}
+
+.nav-col .nav-item {
+  height:40px;
+  width:40px;
+  border-radius:10px;
+}
+.nav-item.glyphicon {
+  transform:translate(-1px,4px);
+}
+
+.nav-row {
+  width:100%;
+  margin:20px 0px 20px 0px;
   display:flex;
   flex-wrap:wrap;
   justify-content:center;
   align-items:stretch;
 
-}
-
-.presentation-main {
-  top:0;
-  width:100%;
-  height:80%;
 }
 
 .App {
